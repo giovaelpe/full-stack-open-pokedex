@@ -10,5 +10,8 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Say hello
-              run: | 
-               echo "hello world"
+              run: echo "hello world"
+            - name: print date
+              run: date
+            - name: print folder
+              run: ls -l

@@ -6,4 +6,7 @@ const PORT = process.env.PORT || 5000
 
 app.use(express.static('dist'))
 
-app.listen(PORT, () => {})
+app.listen(PORT, () => {
+  /* eslint-disable no-console */
+  console.log('Server running in port 5000')
+})
